@@ -1,0 +1,15 @@
+.RulesDisplay {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 5px solid rgb(158, 124, 2);
+    margin-left: 600px;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: white
+}
