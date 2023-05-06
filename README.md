@@ -47,4 +47,4 @@ The app will make use of databases in order to store user details and state.
 ## Intended tech stack
 
 - **Front end**: React/Javascript, with HTML and CSS
-- **Back End**: Express.js, MongoDb
+- **Back End**: Express.js, MongoDB
