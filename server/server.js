@@ -7,29 +7,6 @@ const cors = require("cors");
 app.use(cors())
 app.use(express.json());
 
-// usersCollection = [
-//     {
-//         "name": "Tim Bart",
-//         "balance": 10,
-//         "playing": false,
-//     },
-//     {
-//         "name": "Nina Sampson",
-//         "balance": 10,
-//         "playing": false,
-//     },
-//     {
-//         "name": "Aubrey John",
-//         "balance": 10,
-//         "playing": false,
-//     },
-//     {
-//         "name": "Matilda Beagle",
-//         "balance": 10,
-//         "playing": false,
-//     }
-// ]
-
 const MongoClient = require('mongodb').MongoClient;
 const createRouter = require('./helpers/router_routes.js')
 
